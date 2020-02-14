@@ -27,7 +27,7 @@ $preto: #30353d;
     }   
     .box {
         box-shadow: 0px 0px 15px 0px #eff7ff;
-        transition: background 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.3s;
+        transition: border-radius 0.3s, box-shadow 0.3s, transform 0.3s;
         margin: 0px 15px 0px 0px;
         padding: 70px 25px 67px 25px;
         background: white;
@@ -43,7 +43,6 @@ $preto: #30353d;
         &:hover {
             transform: translateY(-20px);
             box-shadow: 0px -10px 50px 0px #eff7ff;
-            background: white;
             border-radius: 4px;
         }
         &:after {
@@ -60,17 +59,17 @@ $preto: #30353d;
             overflow: hidden;
             transition: 300ms all;
             transform: translateX(-50%);
-            animation: feature_box_after_animation 6s infinite;
+            animation: ball_animation 6s infinite;
         }
     }
 }
-.box:hover::after,.genoa-one-feature:hover::before {
+.box:hover::after,.box:hover::before {
     transition:200ms;
-    animation: feature_box_after_animation 6s infinite;
+    animation: ball_animation 6s infinite;
     opacity:1;
 }
 
-@keyframes feature_box_after_animation {
+@keyframes ball_animation {
 0% {
     border-radius : 30% 70% 70% 30% / 30% 30% 70% 70%;
     }
