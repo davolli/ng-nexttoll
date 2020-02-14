@@ -1,0 +1,86 @@
+$laranja: #ff7542;
+$preto: #30353d;
+
+@media (max-width: 767.98px) {}
+@media (min-width: 768px) {}
+.section-vantagens {
+    padding-bottom: 80px;
+    .background {
+        background: url(/assets/images/bg-padrao-claro.png);
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    .title {
+        h3 {
+            color: $laranja;
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        h1 {
+            color: $preto;
+            font-size: 56px;
+            font-weight: 700;
+            line-height: 1.2em;
+            text-align: center;
+        }
+    }   
+    .box {
+        box-shadow: 0px 0px 15px 0px #eff7ff;
+        transition: background 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.3s;
+        margin: 0px 15px 0px 0px;
+        padding: 70px 25px 67px 25px;
+        background: white;
+        position: relative;
+        h3 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6em;
+        }
+        &:hover {
+            transform: translateY(-20px);
+            box-shadow: 0px -10px 50px 0px #eff7ff;
+            background: white;
+            border-radius: 4px;
+        }
+        &:after {
+            content: "";
+            width: 120px;
+            height: 120px;
+            background: #fff4f0;
+            display: block;
+            position: absolute;
+            top: 16%;
+            left: 50%;
+            z-index: 1;
+            border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+            overflow: hidden;
+            transition: 300ms all;
+            transform: translateX(-50%);
+            animation: feature_box_after_animation 6s infinite;
+        }
+    }
+}
+.box:hover::after,.genoa-one-feature:hover::before {
+    transition:200ms;
+    animation: feature_box_after_animation 6s infinite;
+    opacity:1;
+}
+
+@keyframes feature_box_after_animation {
+0% {
+    border-radius : 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
+25% { 
+    border-radius:  58% 42% 75% 25% / 76% 46% 54% 24%;
+}
+50% {
+    border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
+    }
+75% {
+    border-radius:  33% 67% 58% 42% / 63% 68% 32% 37%	;	
+}
+}

@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+// Divisor
+.elementor-divider{    
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 0;
+    font-size: 0;
+    .elementor-divider-separator {
+        border-top-style: double;
+        border-top-width: 4px;
+        border-top-color: #ff7542;
+        width: 90px;
+        display: inline-block;
+    }
+}
+.z-index-50 {z-index: 50}
+.z-index-25 {z-index: 25}
