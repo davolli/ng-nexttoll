@@ -1,7 +1,4 @@
 @media (max-width: 767.98px) {
-    svg {
-        height: 45px;
-    }
     .text-hero-left {
         h1 {
             font-size: 25px;
@@ -10,11 +7,9 @@
         }
     }
     
+    
   }
 @media (min-width: 768px) {
-    svg {
-        height: 90px;
-    }
     .text-hero-left {
         h1 {
             font-size: 62px;
@@ -58,48 +53,4 @@
         // transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
         padding: 0px 0 80px 0;
     }
-    img {
-        height: auto;
-        max-width: 100%;
-        border: none;
-        -webkit-border-radius: 0;
-        border-radius: 0;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-    }
-}
-.transition-sections[data-negative=false].transition-sections-bottom {
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
-}
-.transition-sections {
-    overflow: hidden;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    line-height: 0;
-    direction: ltr;
-}
-.transition-sections{
-    svg {
-    display: block;
-    width: -webkit-calc(100% + 1.3px);
-    width: calc(100% + 1.3px);
-    position: relative;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-    }
-}
-.transition-sections-fill {
-    -webkit-transform-origin: center;
-    -ms-transform-origin: center;
-    transform-origin: center;
-    -webkit-transform: rotateY(0deg);
-    transform: rotateY(0deg);
-}
-.transition-sections-bottom {
-    bottom: -1px;
 }
