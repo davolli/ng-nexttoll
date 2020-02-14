@@ -7,7 +7,7 @@
         background-image: url(http://jahangirseven.com/genoabase/wp-content/uploads/sites/11/2019/06/banner2.png);
         background-position: center center;
         opacity: 0.08;
-        transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+        transition: opacity 0.3s;
         height: 100%;
         width: 100%;
         top: 0;
@@ -15,7 +15,6 @@
         position: absolute;
     }
     .counters {
-        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
         padding: 120px 0px 120px 0px;
         h1 {
             color: white;
