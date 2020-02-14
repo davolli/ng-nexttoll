@@ -1,3 +1,4 @@
+$roxo: #3e2784;
 @media (max-width: 767.98px) {
     .transition-sections  {
         svg {
@@ -12,6 +13,18 @@
         }
     }
 }
+.z-index-50 {z-index: 50}
+.z-index-25 {z-index: 25}
+img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
 // Divisor
 .elementor-divider{    
     text-align: center;
@@ -27,17 +40,9 @@
         display: inline-block;
     }
 }
-//
-img {
-    height: auto;
-    max-width: 100%;
-    border: none;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-//@
+// imagem basico
+
+// Config border
 .transition-sections[data-negative=false].transition-sections-bottom {
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
@@ -81,5 +86,28 @@ img {
 .transition-sections-up {
     top: -1px;
 }
-.z-index-50 {z-index: 50}
-.z-index-25 {z-index: 25}
+// button fundo branco
+.button-bg-white {
+    a {
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        color: #3e2784;
+        background-color: #ffffff;
+        border-radius: 33px 33px 33px 33px;
+        padding: 22px 30px 22px 30px;
+        span {
+            color: white;
+            color: $roxo;
+            font-size: 14px;
+        }
+    }
+    &:hover {
+        -webkit-animation-name: wobble;
+        animation-name: tada;
+        -webkit-transform-origin: center;
+        transform-origin: center;
+    }
+}
+// all
+
