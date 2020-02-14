@@ -9,6 +9,7 @@ import { SectionHeroComponent } from 'src/app/Home/section-hero/section-hero.com
 import { SectionThreeCardsComponent } from 'src/app/Home/section-three-cards/section-three-cards.component';
 import { SectionTwoColRowComponent } from 'src/app/Home/section-two-col-row/section-two-col-row.component';
 import { SectionTwoColInvertComponent } from 'src/app/Home/section-two-col-invert/section-two-col-invert.component';
+import { SectionCountersComponent } from 'src/app/Home/section-counters/section-counters.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { SectionTwoColInvertComponent } from 'src/app/Home/section-two-col-inver
     SectionThreeCardsComponent,
     SectionTwoColRowComponent,
     SectionTwoColInvertComponent,
+    SectionCountersComponent,
     PageHomeComponent
   ],
   imports: [
