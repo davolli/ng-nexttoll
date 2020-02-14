@@ -8,6 +8,7 @@ import { PageHomeComponent } from 'src/app/Home/page-home/page-home.component';
 import { SectionHeroComponent } from 'src/app/Home/section-hero/section-hero.component';
 import { SectionThreeCardsComponent } from 'src/app/Home/section-three-cards/section-three-cards.component';
 import { SectionTwoColRowComponent } from 'src/app/Home/section-two-col-row/section-two-col-row.component';
+import { SectionTwoColInvertComponent } from 'src/app/Home/section-two-col-invert/section-two-col-invert.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { SectionTwoColRowComponent } from 'src/app/Home/section-two-col-row/sect
     SectionHeroComponent,
     SectionThreeCardsComponent,
     SectionTwoColRowComponent,
+    SectionTwoColInvertComponent,
     PageHomeComponent
   ],
   imports: [
