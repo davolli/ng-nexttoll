@@ -11,6 +11,7 @@ import { SectionTwoColRowComponent } from 'src/app/Home/section-two-col-row/sect
 import { SectionTwoColInvertComponent } from 'src/app/Home/section-two-col-invert/section-two-col-invert.component';
 import { SectionCountersComponent } from 'src/app/Home/section-counters/section-counters.component';
 import { SectionSixCardsComponent } from 'src/app/Home/section-six-cards/section-six-cards.component';
+import { SectionFaqComponent } from 'src/app/Home/section-faq/section-faq.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { SectionSixCardsComponent } from 'src/app/Home/section-six-cards/section
     SectionTwoColInvertComponent,
     SectionCountersComponent,
     SectionSixCardsComponent,
+    SectionFaqComponent,
     PageHomeComponent
   ],
   imports: [
