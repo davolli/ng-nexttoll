@@ -6,13 +6,15 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { AppComponent } from 'src/app/app.component';
 import { PageHomeComponent } from 'src/app/Home/page-home/page-home.component';
 import { SectionHeroComponent } from 'src/app/Home/section-hero/section-hero.component';
-import { SectionVantagensComponent } from 'src/app/Home/section-vantagens/section-vantagens.component';
+import { SectionThreeCardsComponent } from 'src/app/Home/section-three-cards/section-three-cards.component';
+import { SectionTwoColRowComponent } from 'src/app/Home/section-two-col-row/section-two-col-row.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SectionHeroComponent,
-    SectionVantagensComponent,
+    SectionThreeCardsComponent,
+    SectionTwoColRowComponent,
     PageHomeComponent
   ],
   imports: [
