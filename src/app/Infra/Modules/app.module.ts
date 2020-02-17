@@ -12,6 +12,7 @@ import { SectionTwoColInvertComponent } from 'src/app/Home/section-two-col-inver
 import { SectionCountersComponent } from 'src/app/Home/section-counters/section-counters.component';
 import { SectionSixCardsComponent } from 'src/app/Home/section-six-cards/section-six-cards.component';
 import { SectionFaqComponent } from 'src/app/Home/section-faq/section-faq.component';
+import { SectionPricesComponent } from 'src/app/Home/section-prices/section-prices.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { SectionFaqComponent } from 'src/app/Home/section-faq/section-faq.compon
     SectionCountersComponent,
     SectionSixCardsComponent,
     SectionFaqComponent,
+    SectionPricesComponent,
     PageHomeComponent
   ],
   imports: [
