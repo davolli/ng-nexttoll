@@ -1,0 +1,45 @@
+.footer {
+    width: 100%;
+    height: auto;
+    position: relative;
+    color: white;
+    .background {
+        background-color: #313340;
+    }
+    h6 {
+        margin-top: 20px!important;
+        margin-bottom: 20px!important;
+        display: block;
+        color: var(--light-black);
+        font-size: 15px;
+        line-height: 26px;
+        color: rgb(177, 177, 177);
+    }
+    i {
+        color: #CC6442;
+    }
+    .pos-rel {
+        position: relative;
+    }
+    .title--:after {
+        content: "";
+        width: 35px;
+        height: 2px;
+        position: absolute;
+        left: 3px;
+        bottom: -4px;
+        background: #CC6442;
+    }
+    .title--:before {
+        content: "";
+        width: 10px;
+        height: 2px;
+        position: absolute;
+        left: 43px;
+        bottom: -4px;
+        background: #CC6442;
+    }
+    .border-top-footer {
+        border-top: 1px solid #434658;
+    }
+}

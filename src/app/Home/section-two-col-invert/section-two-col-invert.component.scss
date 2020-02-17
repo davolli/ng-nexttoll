@@ -1,0 +1,60 @@
+$preto: #30353d;
+@media (max-width: 767.98px) {
+    h1 {
+        text-align: center;
+        font-size: 32px;
+    }
+    p {
+        text-align: center;
+    }
+}
+@media (min-width: 768px) {
+    h1 {
+        text-align: start;
+        font-size: 58px;
+    }
+    p {
+        text-align: start;
+    }
+}
+
+.section-info-01 {
+    position: relative;
+    background: white;
+    h1 {
+        color: $preto;
+        font-weight: 600;
+        line-height: 1.1em;
+    }
+    p {
+        color: $preto;
+        font-family: "Poppins", Sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.7em;
+    }
+    
+}
+.pb-80px {
+    padding-bottom: 80px;
+}
+.button-bg-white {
+    a {
+        color: white;
+        background-color: #6564c4;
+        span {
+            color: white;
+        }
+    }
+}
+.check-icons {
+    i {
+        color: #66dda7;
+        font-size: 21px;
+    }
+    p {
+        color: rgba(48,53,61,0.82);
+        font-size: 16px;
+        font-weight: 300;
+    }
+}

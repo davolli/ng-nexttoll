@@ -1,0 +1,32 @@
+.section-counters {
+    position: relative;
+    .background {
+        background-color: #3e2784
+    }
+    .background-overlay {
+        background-image: url(http://jahangirseven.com/genoabase/wp-content/uploads/sites/11/2019/06/banner2.png);
+        background-position: center center;
+        opacity: 0.08;
+        transition: opacity 0.3s;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    .counters {
+        padding: 120px 0px 120px 0px;
+        h1 {
+            color: white;
+            font-weight: 700;
+            font-size: 65px;
+            text-align: center;
+        }
+        h3 {
+            color: white;
+            font-weight: 700;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+}
