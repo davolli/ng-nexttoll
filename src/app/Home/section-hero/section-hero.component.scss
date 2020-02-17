@@ -1,9 +1,16 @@
 @media (max-width: 767.98px) {
     .text-hero-left {
         h1 {
-            font-size: 25px;
+            font-size: 36px;
             font-weight: 700;
+            line-height: 1.2em;
             text-align: center;
+        }
+        h5 {
+            color: rgba(255,255,255,0.73);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.6em;
         }
     }
     
@@ -15,7 +22,7 @@
             font-size: 62px;
             font-weight: 700;
             line-height: 1.2em;
-            font-size: 45px;
+            font-size: 62px;
             font-weight: 700;
             text-align: start;
         }
