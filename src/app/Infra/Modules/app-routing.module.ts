@@ -6,7 +6,7 @@ import { PageCarrinhoComponent } from 'src/app/Carrinho/page-carrinho/page-carri
 
 const routes: Routes = [
   { path: '', component: PageHomeComponent },
-  { path: '/carrinho', component: PageCarrinhoComponent },
+  { path: 'carrinho', component: PageCarrinhoComponent },
 ];
 
 @NgModule({
