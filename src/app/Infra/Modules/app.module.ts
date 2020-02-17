@@ -13,6 +13,7 @@ import { SectionCountersComponent } from 'src/app/Home/section-counters/section-
 import { SectionSixCardsComponent } from 'src/app/Home/section-six-cards/section-six-cards.component';
 import { SectionFaqComponent } from 'src/app/Home/section-faq/section-faq.component';
 import { SectionPricesComponent } from 'src/app/Home/section-prices/section-prices.component';
+import { SectionTwoColImgbgComponent } from 'src/app/Home/section-two-col-imgbg/section-two-col-imgbg.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { SectionPricesComponent } from 'src/app/Home/section-prices/section-pric
     SectionSixCardsComponent,
     SectionFaqComponent,
     SectionPricesComponent,
+    SectionTwoColImgbgComponent,
     PageHomeComponent
   ],
   imports: [
