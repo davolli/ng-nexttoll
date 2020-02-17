@@ -1,4 +1,4 @@
-$roxo: #3e2784;
+$cor-padrao: #048491;
 
 @media (max-width: 767.98px) {
     h1 {
@@ -21,7 +21,7 @@ $roxo: #3e2784;
 
 .section-info-01 {
     position: relative;
-    background: $roxo;
+    background: $cor-padrao;
     h1 {
         color: white;
         font-weight: 600;
@@ -41,7 +41,7 @@ $roxo: #3e2784;
 }
 ////
 $midnight: #2c3e50;
-$laranja: #ff7542;;
+$laranja: #074950;;
 // General
 input {
   position: absolute;
