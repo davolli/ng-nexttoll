@@ -15,6 +15,7 @@ import { SectionFaqComponent } from 'src/app/Home/section-faq/section-faq.compon
 import { SectionPricesComponent } from 'src/app/Home/section-prices/section-prices.component';
 import { SectionTwoColImgbgComponent } from 'src/app/Home/section-two-col-imgbg/section-two-col-imgbg.component';
 import { SectionPartnersComponent } from 'src/app/Home/section-partners/section-partners.component';
+import { FooterComponent } from 'src/app/Shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { SectionPartnersComponent } from 'src/app/Home/section-partners/section-
     SectionPricesComponent,
     SectionTwoColImgbgComponent,
     SectionPartnersComponent,
-    PageHomeComponent
+    PageHomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

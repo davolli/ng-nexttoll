@@ -63,6 +63,11 @@ img {
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
 }
+.transition-sections[data-negative=false].transition-sections-top {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
 .transition-sections[data-negative=false].transition-sections-invertido {
     -webkit-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
@@ -97,6 +102,9 @@ img {
 }
 .transition-sections-bottom {
     bottom: -1px;
+}
+.transition-sections-top {
+    top: -1px;
 }
 .transition-sections-invertido {
     top: -1px;
