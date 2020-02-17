@@ -1,0 +1,106 @@
+$laranja: #ff7542;
+$preto: #30353d;
+
+@media (max-width: 767.98px) {
+    .background {
+        margin-bottom: 80px;
+    }
+}
+@media (min-width: 768px) {
+    .background {
+        margin-bottom: 150px;
+    }
+}
+.section-prices {
+    position: relative;
+    padding-bottom: 80px;
+    .background {
+        background: url(/assets/images/bg-padrao-claro.png);
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    .title {
+        h3 {
+            color: $laranja;
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        h1 {
+            color: $preto;
+            font-size: 56px;
+            font-weight: 700;
+            line-height: 1.2em;
+            text-align: center;
+        }
+    }   
+    .box {
+        box-shadow: 0px 0px 15px 0px #eff7ff;
+        transition: border-radius 0.3s, box-shadow 0.3s, transform 0.3s;
+        margin: 0px 15px 0px 0px;
+        padding: 70px 25px 67px 25px;
+        background: white;
+        position: relative;
+        h3 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6em;
+        }
+        &:hover {
+            transform: translateY(-20px);
+            box-shadow: 0px -10px 50px 0px #eff7ff;
+            border-radius: 4px;
+        }
+        &:after {
+            content: "";
+            width: 160px;
+            height: 160px;
+            background: #f5fcff;
+            display: block;
+            position: absolute;
+            top: 16%;
+            left: 50%;
+            z-index: 1;
+            border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+            overflow: hidden;
+            transition: 300ms all;
+            transform: translateX(-50%);
+            animation: ball_animation 6s infinite;
+        }
+        h1 {
+            font-size: 65px;
+            color: #30353d;
+            font-weight: 700;
+        }
+        .separador {
+        border-top-style: dotted;
+        border-top-width: 5px;
+        border-top-color: #ff7542;
+        display: inline-block;
+        width: 15%;
+        }
+        li {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: rgba(48,53,61,0.8);
+            font-size: 16px;
+            font-weight: 400;
+            &:after {
+                content: "";
+                width: 77%;
+                border-color: #f7f7f7;
+            }
+        }
+    }
+}
+.box:hover::after,.box:hover::before {
+    transition:200ms;
+    animation: ball_animation 6s infinite;
+    background: #77c6e7;
+    opacity:1;
+}
+
+
